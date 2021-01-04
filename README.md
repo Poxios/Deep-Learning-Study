@@ -14,3 +14,8 @@ https://theorydb.github.io/envops/2019/05/22/envops-blog-how-to-use-md/
 2021-01-04  
 github 블로그 생성하기.  
 구글 머신러닝 코스 초기 진입하기.
+
+2021-01-05  
+선형 회귀 (Linear Regression)  
+https://wikidocs.net/21670  
+일단 위 링크의 1번 부분만읽고 구글 ㄱㄱ
