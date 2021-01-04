@@ -19,3 +19,6 @@ github 블로그 생성하기.
 선형 회귀 (Linear Regression)  
 https://wikidocs.net/21670  
 일단 위 링크의 1번 부분만읽고 구글 ㄱㄱ
+
+2021-01-06  
+구글 크래시 코스 - 1강 듣고 정리
