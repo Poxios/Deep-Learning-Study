@@ -99,7 +99,7 @@ __Features__:
 These are the inputs, or the x- variables. Usually, a complex machine learning system consists of millions of kinds of features. 
 
 __Examples__:
-These are the particular (numerical, usually) types of _real_ data, x. X is a vector. There are two types of examples we consider, which are 1)labeled examples and 2) unlabeled examples. 
+These are the particular (numerical, usually) types of _real_ data, x. X is a vector. There are two types of examples we consider, which are 1) labeled examples and 2) unlabeled examples. 
 > 1) __Labeled examples__: 
 Has BOTH feature and the label. To express this in mathematical terms: {features, label}: (x, y). 
 We use these exampels to train the model, just like we use past data to predict outcomes for the future. 
@@ -111,6 +111,7 @@ The trained model (using labeled examples) is used to predict the label on unlab
 __Models__:
 This is the relationship between features and labels. For example, a spam detection model might associate certain features strongly with "spam".
 A training process helps the model figure out the relationship or the correlation between features and labels.  An inference from the model (which was done through training) applys the model to unlabeled examples, helping us to figure out the labels for those examples. 
+
 ---
 
 # 3강 - ML로 전환하기
