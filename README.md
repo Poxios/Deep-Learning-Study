@@ -21,7 +21,7 @@ https://wikidocs.net/21670
 일단 위 링크의 1번 부분만읽고 구글 ㄱㄱ
 
 **2021-01-06**  
-구글 크래시 코스 - 1강 듣고 정리
+구글 크래시 코스 - 1,2강 듣고 정리
 
 # 1강 - ML 소개
 
@@ -80,7 +80,7 @@ ex) 간단한 머신러닝 프로젝트에서는 특성을 한 개만 사용하�
 사용자가 '좋아'하는게 아닌, '설명 클릭 횟수'같은게 쓸모있는 것임.
 
 ---
-## Framing the basics of maching learning
+# 2강 - Framing the basics of maching learning (
 Real basics of machine learning are comprised of labels, features, and models.
 
 In general, machine learning systems are "taught" to use various kinds of inputs in producing socially useful predictions about numerous sets of data.
