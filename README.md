@@ -80,7 +80,7 @@ ex) 간단한 머신러닝 프로젝트에서는 특성을 한 개만 사용하�
 사용자가 '좋아'하는게 아닌, '설명 클릭 횟수'같은게 쓸모있는 것임.
 
 ---
-# 2강 - Framing the basics of maching learning (
+# 2강 - Framing the basics of maching learning
 Real basics of machine learning are comprised of labels, features, and models.
 
 In general, machine learning systems are "taught" to use various kinds of inputs in producing socially useful predictions about numerous sets of data.
@@ -99,7 +99,7 @@ __Features__:
 These are the inputs, or the x- variables. Usually, a complex machine learning system consists of millions of kinds of features. 
 
 __Examples__:
-These are the particular (numerical, usually) types of _real_ data, x. X is a vector. There are two types of examples we consider, which are 1) labeled examples and 2) unlabeled examples. 
+These are the particular (usually numerical) types of _real_ data, x. X is a vector. There are two types of examples we consider, which are 1) labeled examples and 2) unlabeled examples. 
 > 1) __Labeled examples__: 
 Has BOTH feature and the label. To express this in mathematical terms: {features, label}: (x, y). 
 We use these exampels to train the model, just like we use past data to predict outcomes for the future. 
