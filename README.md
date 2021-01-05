@@ -114,7 +114,7 @@ A training process helps the model figure out the relationship or the correlatio
 
 ---
 
-# 3강 - ML로 전환하기
+# 3강 - ML로 전환하기 
 
 ## 영상 강의
 
