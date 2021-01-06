@@ -21,7 +21,7 @@ https://wikidocs.net/21670
 일단 위 링크의 1번 부분만읽고 구글 ㄱㄱ
 
 **2021-01-06**  
-구글 크래시 코스 - 1강 듣고 정리
+구글 크래시 코스 - 1,2강 듣고 정리
 
 # 1강 - ML 소개
 
@@ -79,7 +79,42 @@ ex) 간단한 머신러닝 프로젝트에서는 특성을 한 개만 사용하�
 
 사용자가 '좋아'하는게 아닌, '설명 클릭 횟수'같은게 쓸모있는 것임.
 
-# 3강 - ML로 전환하기
+---
+# 2강 - Framing the basics of maching learning
+Real basics of machine learning are comprised of labels, features, and models.
+
+In general, machine learning systems are "taught" to use various kinds of inputs in producing socially useful predictions about numerous sets of data.
+
+There are two sets of fundamental terminologies in machine learning: 1) labels and 2) features. 
+
+These two terms comprise of what is known as linear regression. Linear regression normally shows the relationship between x- and y- variables. 
+For example, the longer the distance you run, the higher the amount of water you will want to drink. 
+Mathematically, this can be thought of as the value of an independent variable (x) affecting the value of a dependent variable (y). 
+A simple linear regression models this relationship between x- and y- variables. This is where the machine learning principle lies. 
+
+__Labels__:
+These are the things that we _predict_: the result values of y. It can be literally _anything_.
+
+__Features__:
+These are the inputs, or the x- variables. Usually, a complex machine learning system consists of millions of kinds of features. 
+
+__Examples__:
+These are the particular (usually numerical) types of _real_ data, x. X is a vector. There are two types of examples we consider, which are 1) labeled examples and 2) unlabeled examples. 
+> 1) __Labeled examples__: 
+Has BOTH feature and the label. To express this in mathematical terms: {features, label}: (x, y). 
+We use these exampels to train the model, just like we use past data to predict outcomes for the future. 
+
+> 2) __Unlabeled examples__: 
+Has ONLY feature and NOT the label. To express this in mathematical terms: {features, ?}: (x, ?).
+The trained model (using labeled examples) is used to predict the label on unlabeled exampeles.
+
+__Models__:
+This is the relationship between features and labels. For example, a spam detection model might associate certain features strongly with "spam".
+A training process helps the model figure out the relationship or the correlation between features and labels.  An inference from the model (which was done through training) applys the model to unlabeled examples, helping us to figure out the labels for those examples. 
+
+---
+
+# 3강 - ML로 전환하기 
 
 ## 영상 강의
 
