@@ -201,7 +201,8 @@ The most popular loss function is squared loss, or L2 loss. It is basically the 
 __Mean square error(MSE)__ is the average value of the squared loss over the whole data set. 
 
 Equation wise it shows this:
-$$ MSE = {1\over N} {\sum\limits_{(x,y)\in D}}{(y-prediction(x))}^{2} $$
+
+$$MSE = {1\over N} {\sum\limits_{(x,y)\in D}}{(y-prediction(x))}^{2}$$
 
 Here, prediction(x) is the function that takes into account the weights and biases using the features x.
 
