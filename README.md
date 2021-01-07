@@ -171,17 +171,17 @@ y = mx +b, where:
 -	b = y-intercept
 
 In machine learning, this equation is shaped a little differently in the model. 
-It is y’ = b + w~1*x~1, where:
+It is y’ = b + w<sub>1</sub>x<sub>1</sub>, where:
 
 -	y’ = predicted label (desired output)
 -	b = bias (y-intercept)
--	w~1 = weight of feature 1
--	x~1 = value of the input feature (already known)
+-	w<sub>1</sub> = weight of feature 1
+-	x<sub>1</sub> = value of the input feature (already known)
 
 ![LR graph](https://developers.google.com/machine-learning/crash-course/images/CricketPoints.svg "Linear regression model")
 Above is an example of a linear regression model.
 
-Inference through the model is done by inserting the value of the features (x1s) into the above equation. A more sophisticated model looks like: y’ = b + w~1*x~1 + w~2*x~2 + w~3*x~3.
+Inference through the model is done by inserting the value of the features (x<sub>1</sub>s) into the above equation. A more sophisticated model looks like: y’ = b + w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>x<sub>2</sub> + w<sub>3</sub>x<sub>3</sub>.
 
 ## Training and Loss
 
@@ -196,7 +196,7 @@ We don’t need more losses, so the ultimate goal of training a model is finding
 ![Loss comparison](https://developers.google.com/machine-learning/crash-course/images/LossSideBySide.png "Loss comparison")
 The graphs above show a model with a high loss and a model with a low loss
 
-The most popular loss function is squared loss, or L2 loss. It is basically the square of the difference between the label and the prediction. Mathematically, the equation is (observation – prediction(x))^2.
+The most popular loss function is squared loss, or L2 loss. It is basically the square of the difference between the label and the prediction. Mathematically, the equation is (observation – prediction(x))<sup>2</sup>.
 
 __Mean square error(MSE)__ is the average value of the squared loss over the whole data set. 
 
