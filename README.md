@@ -156,6 +156,57 @@ x1은 특성이다. 즉, 알려진 입력이다.
 MSE - 평균 제곱 오차  
 N은 D에 포함된 예의 수이다. MSE는 머신러닝에서 흔히 사용되지만, 모든 상황에서 최선인 유일한 손실 함수는 아니다.
 
+---
+
+# 3강: Descending into ML
+
+## Linear Regression
+
+A linear relationship can be drawn when the independent and dependent variables expressed on a grid can be drawn with a straight line. Mathematically, this can be expressed as 
+y = mx +b, where:
+
+-	y = value of the label (the value we are trying to predict)
+-	m = slope of line
+-	x = value of the input feature
+-	b = y-intercept
+
+In machine learning, this equation is shaped a little differently in the model. 
+It is y’ = b + w~1~x~1~, where:
+
+-	y’ = predicted label (desired output)
+-	b = bias (y-intercept)
+-	w~1~ = weight of feature 1
+-	x~1~ = value of the input feature (already known)
+
+![LR graph](https://developers.google.com/machine-learning/crash-course/images/CricketPoints.svg "Linear regression model")
+Above is an example of a linear regression model.
+
+Inference through the model is done by inserting the value of the features (x1s) into the above equation. A more sophisticated model looks like: y’ = b + w~1~x~1~ + w~2~x~2~ + w~3~x~3~.
+
+## Training and Loss
+
+__Training__, as aforementioned, is the process of teaching the model the relationship between features and labels through good values. 
+
+__Supervised learning__, however, is the process of building a model that minimizes loss – __empirical risk minimization__.
+
+__Loss__: a number indicating how bad the model’s prediction was on a single example
+
+We don’t need more losses, so the ultimate goal of training a model is finding weights and biases that have low loss, so empirical risk minimization can occur. 
+
+![Loss comparison](https://developers.google.com/machine-learning/crash-course/images/LossSideBySide.png "Loss comparison")
+The graphs above show a model with a high loss and a model with a low loss
+
+The most popular loss function is squared loss, or L2 loss. It is basically the square of the difference between the label and the prediction. Mathematically, the equation is (observation – prediction(x))^2.
+
+__Mean square error(MSE)__ is the average value of the squared loss over the whole data set. 
+
+Equation wise it shows this:
+$$MSE = {1\over N} {\sum\limits_{(x,y)\in D}}{(y-prediction(x))}^{2}$$
+
+Here, prediction(x) is the function that takes into account the weights and biases using the features x.
+
+---
+
 # 4강 - 손실 줄이기
 
 ## 영상 강의
