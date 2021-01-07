@@ -171,17 +171,17 @@ y = mx +b, where:
 -	b = y-intercept
 
 In machine learning, this equation is shaped a little differently in the model. 
-It is y’ = b + w~1~x~1~, where:
+It is y’ = b + w~1*x~1, where:
 
 -	y’ = predicted label (desired output)
 -	b = bias (y-intercept)
--	w~1~ = weight of feature 1
--	x~1~ = value of the input feature (already known)
+-	w~1 = weight of feature 1
+-	x~1 = value of the input feature (already known)
 
 ![LR graph](https://developers.google.com/machine-learning/crash-course/images/CricketPoints.svg "Linear regression model")
 Above is an example of a linear regression model.
 
-Inference through the model is done by inserting the value of the features (x1s) into the above equation. A more sophisticated model looks like: y’ = b + w~1~x~1~ + w~2~x~2~ + w~3~x~3~.
+Inference through the model is done by inserting the value of the features (x1s) into the above equation. A more sophisticated model looks like: y’ = b + w~1*x~1 + w~2*x~2 + w~3*x~3.
 
 ## Training and Loss
 
@@ -201,7 +201,7 @@ The most popular loss function is squared loss, or L2 loss. It is basically the 
 __Mean square error(MSE)__ is the average value of the squared loss over the whole data set. 
 
 Equation wise it shows this:
-$$MSE = {1\over N} {\sum\limits_{(x,y)\in D}}{(y-prediction(x))}^{2}$$
+$$ MSE = {1\over N} {\sum\limits_{(x,y)\in D}}{(y-prediction(x))}^{2} $$
 
 Here, prediction(x) is the function that takes into account the weights and biases using the features x.
 
